@@ -163,7 +163,7 @@ month_summary
 
 # t.test(outcome ~ group, data = df)
 
-t.test(proportion_deaths ~ handwashing_started, data = monthly)
+t.test(proportion_deaths ~ handwashing_started, data = monthly, conf.level=0.95)
 
 ```
 
